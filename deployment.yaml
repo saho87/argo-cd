@@ -16,7 +16,7 @@ spec:
         deployment: nginx
     spec:
       containers:
-      - image: 'nginxinc/nginx-unprivileged'
+      - image: 'nginx:latest'
         name: nginx
         ports:
         - containerPort: 8080
